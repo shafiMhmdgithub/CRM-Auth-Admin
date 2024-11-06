@@ -80,7 +80,7 @@ const SideBar = () => {
             <li className="nav-item">
               <Link to={'/add-edit-products '} className="nav-link active">
                 <i className="far fa-circle nav-icon" />
-                <p>Add/Edit Products</p>
+                <p>Add Products</p>
               </Link>
             </li>
             <li className="nav-item">

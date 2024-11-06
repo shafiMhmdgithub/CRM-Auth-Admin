@@ -51,7 +51,9 @@ const Home = ({ editProfile, viewProfile, setEditProfile, setViewProfile }) => {
         {/* /.container-fluid */}
       </div>
       {/* Render Main Content */}
-      {editProfile ? <EditProfile /> : viewProfile ? <ViewProfile /> : <MainContent />}
+      {editProfile ? <EditProfile /> : viewProfile ? <ViewProfile /> :  <MainContent />
+      
+      }
     </div>
   );
 };
