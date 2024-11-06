@@ -1,0 +1,33 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cjs": "^0.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "3.6.5",
+    "nodemailer": "^6.9.16",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.25.9",
+    "@babel/node": "^7.25.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.25.9",
+    "nodemon": "^2.0.7"
+  }
+}
